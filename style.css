@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3V_WWzlWyYPMICcnIuBsVai1B4YqOpu1Whah_rIN5cGUJoNNs);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    cursor: pointer;
+
+
+
+}
+.ava{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-color:black;
+
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border bottom: 1px solid #fff;
+    background: grey;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    border-radius:20px;
+    font-color: black;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background :blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:green;
+    color:white;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover{
+    color: green ;
+}
+
